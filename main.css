@@ -1,0 +1,41 @@
+
+body {
+    background-color: rgb(100, 159, 185);
+}
+button {
+    background-color: rgb(83, 148, 148);
+    border: solid black;
+    padding: 5px;
+    border-radius: 5px;
+}
+button:hover {
+    background-color: rgb(42, 119, 174);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+             
+ }
+
+.promptButton {
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    text-align: inherit;
+    
+}
+
+.submitButton {
+    
+    background-color:  rgb(83, 148, 148);
+    border-radius: 5px;
+}
+.submitButton:hover {
+    background-color: rgb(42, 119, 174);
+}
+
+.img {
+    float: right;
+    justify-content: right;
+}
